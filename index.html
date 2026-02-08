@@ -1,0 +1,185 @@
+<!index html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamerHub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #1e293b;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    header p {
+      margin-top: 8px;
+      color: #94a3b8;
+    }
+    section {
+      padding: 60px 10%;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 25px;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+    .card p {
+      color: #cbd5f5;
+    }
+    .platforms span {
+      display: inline-block;
+      background: #1e293b;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 4px;
+      font-size: 0.85rem;
+    }
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, #0284c7, #0ea5e9);
+      color: #020617;
+      padding: 60px 20px;
+    }
+    .cta button {
+      background: #020617;
+      color: #38bdf8;
+      border: none;
+      padding: 14px 28px;
+      font-size: 1rem;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      border-top: 1px solid #1e293b;
+      color: #64748b;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    input, textarea {
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #1e293b;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    label {
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>StreamerHub</h1>
+  <p>Community • Planung • Streaming • Social Media – alles an einem Ort</p>
+</header>
+
+<section>
+  <h2>Was ist StreamerHub?</h2>
+  <p>
+    StreamerHub ist eine Plattform, die Community-Aufbau wie bei Discord,
+    professionelle Planung wie bei Microsoft Teams und direkte Social-Media-
+    Verknüpfungen in einem System vereint.
+  </p>
+</section>
+
+<section>
+  <h2>Hauptfunktionen</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Community-System</h3>
+      <p>
+        Server, Text- und Sprachkanäle, Rollen & Rechte – speziell für Streamer
+        und ihre Communitys optimiert.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Streamer & Projektplanung</h3>
+      <p>
+        Plane Streams, Termine, Events und Projekte mit deinem Team in
+        übersichtlichen Workspaces.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Social-Media-Hub</h3>
+      <p>
+        Verknüpfe alle aktiven Plattformen und greife zentral auf deine
+        Streaming- & Creator-Tools zu.
+      </p>
+      <div class="platforms">
+        <span>Twitch</span>
+        <span>YouTube</span>
+        <span>TikTok</span>
+        <span>Kick</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Streamer-Zugang beantragen</h2>
+  <p>
+    Um Zugriff auf Streamer-Funktionen zu erhalten, muss eine Anfrage an die
+    Administration gestellt werden.
+  </p>
+
+  <form>
+    <label>Kanalname / Creator-Name</label>
+    <input type="text" placeholder="z.B. MaxPlays" />
+
+    <label>Plattformen (nur wo du streamst)</label>
+    <input type="text" placeholder="Twitch, YouTube, TikTok..." />
+
+    <label>Links zu deinen Kanälen</label>
+    <textarea placeholder="Twitch: ...\nYouTube: ...\nTikTok: ..."></textarea>
+
+    <label>Art des Contents (optional)</label>
+    <input type="text" placeholder="Gaming, IRL, Musik, Just Chatting..." />
+
+    <button type="submit">Anfrage absenden</button>
+  </form>
+</section>
+
+<section class="cta">
+  <h2>Alles für Streamer. Eine Plattform.</h2>
+  <p>Baue Communitys auf, plane Projekte und verbinde deine Socials.</p>
+  <button>Jetzt starten</button>
+</section>
+
+<footer>
+  © 2026 StreamerHub – All-in-One Plattform für Streamer
+</footer>
+
+</body>
+</html>
